@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+}
+
+#titulo {
+    text-align: center;
+    background-color: blue;
+    color: yellow;
+}
+
+p {
+    color: blue;
+}
+
+.destaque {
+    color: red;
+}
+
+.caixa {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.caixa p {
+    color: black;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
