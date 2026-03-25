@@ -1,0 +1,38 @@
+p{
+    color:rgb(0, 0, 0);
+}
+
+h2{
+    color: #24ebf1;
+}
+h1{
+    color: rgb(235, 9, 9);
+    border-color: rgb(199, 21, 21) ;
+    border: width 50px ;
+    border-style: dashed;
+    border-radius:inherit;
+    background-color: black;
+    padding: 20px;
+    border-radius: 30px;
+}
+body{
+    background-color: rgb(255, 255, 255) ;
+}
+ 
+.caixa1{
+background-image: url("../img/img_div.jpg");
+background-position:bottom ;
+background-size: contain;   
+background-attachment:fixed;
+width: 500px;
+height: 300px ;
+
+}            
+.texto_caixa1{
+color: antiquewhite;
+padding-top: 100px;
+padding-left:100px;
+padding-right: 100px;
+padding-bottom: 100px;
+}
+
