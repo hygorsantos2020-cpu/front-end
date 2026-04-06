@@ -1,0 +1,38 @@
+Atividade Prática – Melhorando Layout com Flexbox
+
+1) O que é display: flex
+display: flex é uma propriedade do CSS que transforma um elemento em um container
+flexível. Isso permite alinhar e distribuir os elementos internos de forma mais simples e
+responsiva.
+2) O que é um container flex
+O container flex é o elemento que recebe display: flex. Ele controla o posicionamento,
+direção e alinhamento dos elementos que estão dentro dele.
+3) O que são itens flex
+Itens flex são os elementos filhos que estão dentro do container flex. Eles seguem as regras
+definidas pelo container.
+Propriedades do Flexbox
+flex-direction
+Define a direção dos itens dentro do container.
+row (padrão), column, row-reverse e column-reverse.
+Usado quando precisamos mudar a orientação dos elementos.
+justify-content
+Alinha os itens no eixo principal.
+Exemplos: flex-start, center, flex-end, space-between, space-around.
+Usado para distribuir os elementos horizontalmente.
+align-items
+Alinha os itens no eixo cruzado.
+Exemplos: flex-start, center, flex-end, stretch.
+Usado para alinhar verticalmente.
+flex-wrap
+Define se os itens quebram linha.
+nowrap (padrão), wrap, wrap-reverse.
+Usado quando há muitos elementos e precisamos que quebrem para outra linha.
+gap
+Define o espaçamento entre os itens sem precisar usar margem.
+align-content
+Alinha as linhas quando há quebra de linha com flex-wrap.
+Exemplos: center, space-between, space-around.
+
+Conclusão
+O Flexbox é uma ferramenta essencial para criar layouts modernos, organizados e
+responsivos. Ele facilita o alinhamento e a distribuição de elementos em páginas web.
