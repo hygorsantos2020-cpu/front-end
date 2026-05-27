@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Básico - Exercícios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>JS BásICO - Exercícios 01 ao 11</h1>
+
+    <!-- Exercício 01 -->
+    <section>
+        <h2>Exercício 1 - Saudação</h2>
+
+        <input type="text" id="nomeExe01" placeholder="Digite seu nome">
+        <button id="btnExe01">Mostrar Mensagem</button>
+
+        <p id="pExe01"></p>
+    </section>
+
+    <!-- Exercício 02 -->
+    <section>
+        <h2>Exercício 2 - Alterar Estilo</h2>
+
+        <p id="pExe02">
+            Existem 3 tipos de pessoas: As que sabem contar e as que não sabem!
+        </p>
+
+        <button id="btnExe02">Alterar Estilo</button>
+    </section>
+
+    <!-- Exercício 03 -->
+    <section>
+        <h2>Exercício 3 - Alterar Cor de Fundo</h2>
+
+        <button class="cor" data-cor="red">Vermelho</button>
+        <button class="cor" data-cor="green">Verde</button>
+        <button class="cor" data-cor="blue">Azul</button>
+        <button class="cor" data-cor="white">Original</button>
+    </section>
+
+    <!-- Exercício 04 -->
+    <section>
+        <h2>Exercício 4 - Criar e Remover Parágrafos</h2>
+
+        <button id="btnCriar">Novo Parágrafo</button>
+        <button id="btnRemover">Remover Parágrafo</button>
+
+        <div id="conteudo"></div>
+    </section>
+
+    <!-- Exercício 05 -->
+    <section>
+        <h2>Exercício 5 - Mostrar/Ocultar Imagem</h2>
+
+        <button id="btnExe05">Mostrar/Ocultar Imagem</button>
+
+        <br><br>
+
+        <img src="anonimo.jpg"  id="imgExe05" class="imagem" alt="Imagem de treino">
+
+    </section>
+
+    <!-- Exercício 06 -->
+    <section>
+        <h2>Exercício 6 - Trocar Imagem com SELECT</h2>
+
+        <select id="selectExe06">
+            <option value="">Escolha uma imagem</option>
+            <option  value="car"> Carro</option>
+            <option value="moto">Moto</option>
+            <option value="bus">Ônibus</option>
+            <option value="bike">Bicicleta</option>
+        </select>
+
+        <br><br>
+
+        <img id="fotoExe06" class="imagem" alt="Imagem selecionada">
+    </section>
+
+    <!-- Exercício 07 -->
+    <section>
+        <h2>Exercício 7 - Alterar DIV com o Mouse</h2>
+
+        <p>Passe o mouse sobre a div abaixo:</p>
+
+      <div id="divExe07" style="width: 300px; height: 300px; background: orange; margin: 50px;"></div>
+        
+
+
+    
+
+    
+
+    <!-- Exercício 08 -->
+    <section>
+        <h2>Exercício 8 - Texto ao Passar o Mouse na Imagem</h2>
+
+        <p id="textoExe08"></p>
+
+        <img src="nokia.jpg" id="imgExe08" class="imagem" alt="Imagem treino">
+    </section>
+
+    <!-- Exercício 09 -->
+    <section>
+        <h2>Exercício 9 - Criar Lista Não Ordenada</h2>
+
+        <input type="number" id="qtdExe09" placeholder="Quantidade de itens">
+        <button id="btnExe09">Criar Lista</button>
+
+        <ul id="listaExe09"></ul>
+    </section>
+
+    <!-- Exercício 10 -->
+    <section>
+        <h2>Exercício 10 - Lista de Compras</h2>
+
+        <div class="produtos">
+            <div class="produto" data-descr="Notebook" data-preco="8500">
+                <p>Notebook</p>
+                <img src="notebook.jpg">
+            </div>
+
+            <div class="produto" data-descr="Celular" data-preco="3000">
+                <p>Celular</p>
+                <img src="celular.jpg">
+            </div>
+
+            <div class="produto" data-descr="Tablet" data-preco="1200">
+                <p>Tablet</p>
+                <img src="tablet.jpg">
+            </div>
+        </div>
+
+        <p>Itens da Lista:</p>
+        <ol id="listaProdutos"></ol>
+
+        <p>Valor da Compra:</p>
+        <p id="valorCompraExe10">R$ 0,00</p>
+    </section>
+
+    <!-- Exercício 11 -->
+    <section>
+        <h2>Exercício 11 - Desafio</h2>
+
+        <p>
+            Clique em um produto para adicionar na lista.
+            Se clicar novamente no produto selecionado, ele será removido.
+        </p>
+
+        <div class="produtos">
+            <div class="produtoDesafio" data-descr="Notebook" data-preco="8500">
+                <p>Notebook</p>
+         <img src="notebook.jpg" alt="">
+            </div>
+
+            <div class="produtoDesafio" data-descr="Celular" data-preco="3000">
+                <p>Celular</p>
+             <img src="celular.jpg" alt="">
+            </div>
+
+            <div class="produtoDesafio" data-descr="Tablet" data-preco="1200">
+                <p>Tablet</p>
+              <img src="tablet.jpg" alt="">
+            </div>
+        </div>
+
+        <p>Produtos selecionados:</p>
+        <ol id="listaDesafio"></ol>
+
+        <p>Total da Compra:</p>
+        <p id="totalDesafio">R$ 0,00</p>
+    </section>
+
+    <script src="style.js"></script>
+</body>
+</html>
